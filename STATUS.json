@@ -1,8 +1,17 @@
 {
-  "release_state": "LOCAL_PREPARED",
+  "release_state": "PUBLISHED",
   "version": "v1.0.0",
   "repository": "TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_2_KOREAN_LOCALIZATION_RELEASE",
-  "external_publication": false,
+  "external_publication": true,
+  "publication": {
+    "published_at": "2026-08-20T09:16:56Z",
+    "release_url": "https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_2_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.0",
+    "tag_commit": "25c2c631d7113b348f3fbfc6d50282ced47e011c",
+    "asset_url": "https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_2_KOREAN_LOCALIZATION_RELEASE/releases/download/v1.0.0/Summon_Night_Craft_Sword_Monogatari_2_KO.xdelta",
+    "remote_download_verification": "PASS",
+    "remote_roundtrip_sha256": "5114235cb138ad3707da7750fd86c776b9c18b629bba2dcf0299159a6eba5300",
+    "repository_integrity_workflow": "PASS"
+  },
   "source": {
     "game_code": "BSKJ",
     "size": 16777216,
