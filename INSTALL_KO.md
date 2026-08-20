@@ -44,8 +44,8 @@ Get-FileHash "summon_night_craft_sword_2_ko.gba" -Algorithm SHA256
 ```
 
 - 크기: `33,554,432 bytes`
-- SHA-256: `5114235cb138ad3707da7750fd86c776b9c18b629bba2dcf0299159a6eba5300`
+- SHA-256: `1c057a8e65676ec38e9cbd1ee6b5c60eab48ba6bd6f456d7574ae71b289a2b14`
 
 기존 일본판 세이브를 사용하기 전에는 별도 백업을 권장합니다.
 
-기존 패치 결과 ROM에 다시 적용하지 말고, 항상 위 해시의 깨끗한 일본판 원본에 `v1.0.0` 패치를 적용하십시오.
+기존 패치 결과 ROM에 다시 적용하지 말고, 항상 위 해시의 깨끗한 일본판 원본에 `v1.0.1` 패치를 적용하십시오.
