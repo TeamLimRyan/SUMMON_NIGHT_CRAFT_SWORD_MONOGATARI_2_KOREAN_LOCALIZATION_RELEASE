@@ -1,0 +1,10 @@
+*.gba
+*.sav
+*.srm
+*.state
+*.ss0
+*.ss1
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

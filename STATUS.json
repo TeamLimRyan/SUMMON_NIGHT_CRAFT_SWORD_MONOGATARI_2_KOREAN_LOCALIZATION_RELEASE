@@ -1,0 +1,45 @@
+{
+  "release_state": "LOCAL_PREPARED",
+  "version": "v1.0.0",
+  "repository": "TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_2_KOREAN_LOCALIZATION_RELEASE",
+  "external_publication": false,
+  "source": {
+    "game_code": "BSKJ",
+    "size": 16777216,
+    "sha256": "9abbff51004531eb0f9ee4c15af5b53db7ffe5e9c47e1e225488c576db64360f"
+  },
+  "patch": {
+    "path": "Summon_Night_Craft_Sword_Monogatari_2_KO.xdelta",
+    "size": 1486587,
+    "sha256": "e4717aae681e55b0906615382197005bc4cdbe211298436a7d5ca1e336fa285f",
+    "application_header_disabled": true
+  },
+  "target": {
+    "size": 33554432,
+    "sha256": "5114235cb138ad3707da7750fd86c776b9c18b629bba2dcf0299159a6eba5300",
+    "roundtrip_match": true,
+    "approved_runtime_target": true
+  },
+  "coverage": {
+    "translated_text_rows": 42661,
+    "keyboard_runtime_rows": 21,
+    "image_decisions": 120,
+    "localized_images": 116,
+    "images_kept_original": 4,
+    "hangul_syllables": 11172,
+    "keyboard_jamo": 40,
+    "active_japanese_residue": 0
+  },
+  "runtime_qa": {
+    "boot_and_title": true,
+    "korean_name_input": "임라이언",
+    "post_name_progression": true,
+    "save": true,
+    "cold_boot_load": true
+  },
+  "limitations": {
+    "full_scenario_automated_playthrough": false,
+    "real_hardware_tested": false,
+    "owner_release_approval": true
+  }
+}

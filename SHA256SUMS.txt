@@ -1,0 +1,7 @@
+e4717aae681e55b0906615382197005bc4cdbe211298436a7d5ca1e336fa285f  Summon_Night_Craft_Sword_Monogatari_2_KO.xdelta
+
+# Supported source ROM (not distributed)
+9abbff51004531eb0f9ee4c15af5b53db7ffe5e9c47e1e225488c576db64360f  Summon Night - Craft Sword Monogatari 2 (Japan).gba
+
+# Expected patched ROM (not distributed)
+5114235cb138ad3707da7750fd86c776b9c18b629bba2dcf0299159a6eba5300  summon_night_craft_sword_2_ko.gba
