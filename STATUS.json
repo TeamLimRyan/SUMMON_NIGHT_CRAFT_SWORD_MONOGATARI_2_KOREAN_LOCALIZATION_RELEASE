@@ -1,8 +1,8 @@
 {
-  "release_state": "LOCAL_PREPARED",
-  "version": "v1.0.1",
+  "release_state": "PUBLISHED",
+  "version": "v1.0.2",
   "repository": "TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_2_KOREAN_LOCALIZATION_RELEASE",
-  "external_publication": false,
+  "external_publication": true,
   "source": {
     "game_code": "BSKJ",
     "size": 16777216,
@@ -10,13 +10,13 @@
   },
   "patch": {
     "path": "Summon_Night_Craft_Sword_Monogatari_2_KO.xdelta",
-    "size": 1472292,
-    "sha256": "a3d56a6a27ac24d61f835997440542a25c72f79ad567f67843e00acfac3e6619",
+    "size": 1518429,
+    "sha256": "3c9bba76351593c3bff91747c1b321418cad4b6773b55074c587c9a2d7ddf2a2",
     "application_header_disabled": true
   },
   "target": {
     "size": 33554432,
-    "sha256": "1c057a8e65676ec38e9cbd1ee6b5c60eab48ba6bd6f456d7574ae71b289a2b14",
+    "sha256": "a071bc59f2112ab78680a11c85d6acd3b0175e0f9d319eb5f1aaed34aa33358c",
     "roundtrip_match": true,
     "approved_runtime_target": true
   },
@@ -24,8 +24,8 @@
     "translated_text_rows": 42661,
     "keyboard_runtime_rows": 21,
     "image_decisions": 120,
-    "localized_images": 116,
-    "images_kept_original": 4,
+    "localized_images": 111,
+    "images_kept_original": 9,
     "hangul_syllables": 11172,
     "keyboard_jamo": 40,
     "active_japanese_residue": 0
@@ -35,7 +35,10 @@
     "korean_name_input": "임라이언",
     "post_name_progression": true,
     "save": true,
-    "cold_boot_load": true
+    "cold_boot_load": true,
+    "reported_freeze_save_loaded": true,
+    "reported_freeze_dialogue_advanced": true,
+    "battle_result_followup_dialogue": true
   },
   "limitations": {
     "full_scenario_automated_playthrough": false,
