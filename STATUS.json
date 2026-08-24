@@ -1,6 +1,6 @@
 {
   "release_state": "PUBLISHED",
-  "version": "v1.0.2",
+  "version": "v1.0.3",
   "repository": "TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_2_KOREAN_LOCALIZATION_RELEASE",
   "external_publication": true,
   "source": {
@@ -10,13 +10,13 @@
   },
   "patch": {
     "path": "Summon_Night_Craft_Sword_Monogatari_2_KO.xdelta",
-    "size": 1518429,
-    "sha256": "3c9bba76351593c3bff91747c1b321418cad4b6773b55074c587c9a2d7ddf2a2",
+    "size": 1498285,
+    "sha256": "ccd48429d6016b14f8274a4c42a6227b803d743811ae6ac3f174df8114fc84f0",
     "application_header_disabled": true
   },
   "target": {
     "size": 33554432,
-    "sha256": "a071bc59f2112ab78680a11c85d6acd3b0175e0f9d319eb5f1aaed34aa33358c",
+    "sha256": "01866b5d51bb656ff2b59f774c6f6febcac32f4f8ac13a342d5ecc6df901a05c",
     "roundtrip_match": true,
     "approved_runtime_target": true
   },
@@ -30,6 +30,14 @@
     "keyboard_jamo": 40,
     "active_japanese_residue": 0
   },
+  "capacity_safety": {
+    "rows_audited": 42661,
+    "risky_occurrences_retranslated": 15677,
+    "unique_translation_units": 11857,
+    "validated_batches": 110,
+    "overflow_rows": 0,
+    "runtime_text_overrides": 0
+  },
   "runtime_qa": {
     "boot_and_title": true,
     "korean_name_input": "임라이언",
@@ -38,6 +46,8 @@
     "cold_boot_load": true,
     "reported_freeze_save_loaded": true,
     "reported_freeze_dialogue_advanced": true,
+    "reported_save_states_tested": 2,
+    "a_presses_per_save_state": 30,
     "battle_result_followup_dialogue": true
   },
   "limitations": {
