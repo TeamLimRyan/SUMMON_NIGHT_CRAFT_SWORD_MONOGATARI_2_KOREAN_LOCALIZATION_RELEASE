@@ -22,7 +22,7 @@ body:
     id: patch-version
     attributes:
       label: 패치 버전
-      placeholder: v1.0.3
+      placeholder: v1.0.4
     validations:
       required: true
   - type: input

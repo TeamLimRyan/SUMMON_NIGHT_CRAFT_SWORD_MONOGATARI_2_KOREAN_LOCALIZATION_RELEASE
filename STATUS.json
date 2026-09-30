@@ -1,6 +1,6 @@
 {
   "release_state": "PUBLISHED",
-  "version": "v1.0.3",
+  "version": "v1.0.4",
   "repository": "TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_2_KOREAN_LOCALIZATION_RELEASE",
   "external_publication": true,
   "source": {
@@ -10,13 +10,13 @@
   },
   "patch": {
     "path": "Summon_Night_Craft_Sword_Monogatari_2_KO.xdelta",
-    "size": 1498285,
-    "sha256": "ccd48429d6016b14f8274a4c42a6227b803d743811ae6ac3f174df8114fc84f0",
+    "size": 1516751,
+    "sha256": "c9806b54c928cd83548503d2c64da8defd6afea95045b37cfb3164fafbf23f55",
     "application_header_disabled": true
   },
   "target": {
     "size": 33554432,
-    "sha256": "01866b5d51bb656ff2b59f774c6f6febcac32f4f8ac13a342d5ecc6df901a05c",
+    "sha256": "5c282c89e094064676244f1b4848f61f854a51c48c5555ffd468ecf017da4468",
     "roundtrip_match": true,
     "approved_runtime_target": true
   },
@@ -39,20 +39,49 @@
     "runtime_text_overrides": 0
   },
   "runtime_qa": {
+    "emulator": "mGBA 0.10.5",
     "boot_and_title": true,
     "korean_name_input": "임라이언",
+    "physical_backspace_verified": true,
     "post_name_progression": true,
-    "save": true,
-    "cold_boot_load": true,
-    "reported_freeze_save_loaded": true,
-    "reported_freeze_dialogue_advanced": true,
-    "reported_save_states_tested": 2,
-    "a_presses_per_save_state": 30,
-    "battle_result_followup_dialogue": true
+    "opening_dialogue": true,
+    "field_transition": true,
+    "equipment_and_item_menu": true,
+    "frames": 20224,
+    "screenshots": 87,
+    "baseline_common_screenshots": 85,
+    "baseline_identical_screenshots": 84,
+    "hle_diagnostic_events": 1047,
+    "hle_diagnostics_match_v103": true,
+    "save_load_retested": false,
+    "reported_save_states_retested": false
   },
   "limitations": {
     "full_scenario_automated_playthrough": false,
     "real_hardware_tested": false,
     "owner_release_approval": true
+  },
+  "prior_version_runtime_qa": {
+    "version": "v1.0.3-or-earlier",
+    "checks": {
+      "boot_and_title": true,
+      "korean_name_input": "임라이언",
+      "post_name_progression": true,
+      "save": true,
+      "cold_boot_load": true,
+      "reported_freeze_save_loaded": true,
+      "reported_freeze_dialogue_advanced": true,
+      "reported_save_states_tested": 2,
+      "a_presses_per_save_state": 30,
+      "battle_result_followup_dialogue": true
+    }
+  },
+  "text_runtime_repair": {
+    "fixed_fields": 1980,
+    "display_entries_checked_per_row": 3,
+    "glyphs_checked": 11212,
+    "length_and_history_unique_inputs": 29380,
+    "copy_inputs_per_path": 16031,
+    "unexpected_byte_changes": 0
   }
 }
