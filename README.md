@@ -1,13 +1,13 @@
 # 서몬나이트 크래프트 소드 이야기 2 한국어 패치
 
-> **v1.0.4 공개 릴리스**
+> **v1.0.5 공개 릴리스**
 
 게임보이 어드밴스 일본판 `Summon Night - Craft Sword Monogatari 2`용 비공식 한국어 현지화 패치 배포 저장소입니다.
 
 - 게임 코드: `BSKJ`
 - 지원 원본 크기: `16,777,216 bytes`
 - 지원 원본 SHA-256: `9abbff51004531eb0f9ee4c15af5b53db7ffe5e9c47e1e225488c576db64360f`
-- 버전·태그: `v1.0.4`
+- 버전·태그: `v1.0.5`
 - 저장소: `TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_2_KOREAN_LOCALIZATION_RELEASE`
 
 ## 포함 범위
@@ -17,17 +17,18 @@
 - 현대 한글 완성형 11,172자와 한글 자모 40자 글리프
 - 조합식 한글 이름 입력과 한글 자모 키보드
 - 용어집·제어 코드·포인터·압축·팔레트·이미지 재삽입 정적 검증
-- v1.0.4: 실제 `임라이언` 입력·삭제, 초반 대사, 필드 전환, 장비·아이템 메뉴 검증
+- v1.0.5: 일본어 원문·장면 문맥 기반 전면 재번역, 용어집·인물별 말투 정비
+- 한글 `임라이언`·영수 `Aa1Zz0` 입력, 초반 대사, 필드 및 장비·아이템 메뉴 검증
 - 활성 42,661행의 표시 경로 3개, 글리프 11,212개, 길이·기록·복사 경로 실행 검사
 - 이전 버전의 저장·불러오기 및 제보 세이브 검증 이력은 [호환성](COMPATIBILITY_KO.md) 참고
 
 ## 다운로드
 
-최신 안정판은 [GitHub Releases의 v1.0.4](https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_2_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.4)에서 받으십시오.
+최신 안정판은 [GitHub Releases의 v1.0.5](https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_2_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.5)에서 받으십시오.
 
 - 패치: `Summon_Night_Craft_Sword_Monogatari_2_KO.xdelta`
-- 패치 크기: `1,516,751 bytes`
-- 패치 SHA-256: `c9806b54c928cd83548503d2c64da8defd6afea95045b37cfb3164fafbf23f55`
+- 패치 크기: `1,520,371 bytes`
+- 패치 SHA-256: `0187b5d95bc37b2dd2e1fe59c396626ea0f4617f513ecc7ce965fa039b8717f6`
 
 이 저장소와 GitHub Release에는 원본 ROM, 완성 ROM, BIOS, 세이브 데이터를 포함하지 않습니다.
 
@@ -52,7 +53,7 @@ xdelta3 -d -s "Summon Night - Craft Sword Monogatari 2 (Japan).gba" `
 ## 결과 무결성
 
 - 결과 크기: `33,554,432 bytes`
-- 결과 SHA-256: `5c282c89e094064676244f1b4848f61f854a51c48c5555ffd468ecf017da4468`
+- 결과 SHA-256: `2aa03800e2e8024a0331df1fe49159c0669ab5e043b1a9ea9d3bc51de7ad8cdb`
 
 배포 xdelta를 지원 원본에 역적용한 결과가 최종 승인 ROM과 바이트 단위로 일치합니다. 전체 체크섬은 [SHA256SUMS.txt](SHA256SUMS.txt)에 있습니다.
 
